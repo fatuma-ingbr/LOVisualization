@@ -124,3 +124,6 @@ var data = {
               .style("text-anchor", (d) =>  d.children ? "end" : "start" )
               .text((d) => d.data.name );
 
+        // horizontal spacing of the node
+
+         node.forEach(function(d) { d.x = d.depth * 180; });

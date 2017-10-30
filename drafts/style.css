@@ -1,0 +1,10 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+/*adding background to svg*/
+#svg {
+    background: black;
+}
+
