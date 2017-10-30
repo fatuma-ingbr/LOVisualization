@@ -106,16 +106,16 @@ var data = {
                 .attr("transform", (d) => "translate(" + d.x + "," + d.y + ")" );
 
 //            // adds the circle to the node
-//            node.append('circle')
-//              .attr('r', 10)
-//              .attr('fill', 'steelblue');
+            node.append('circle')
+              .attr('r', 10)
+              .attr('fill', 'brown');
 
 			// adds the rectangle to the node
-            node.append('rect')
-              .attr('class', "node")
-              .attr('width', 20)
-              .attr('height', 20)
-              .attr('fill', 'brown');
+//            node.append('rect')
+//              .attr('class', "node")
+//              .attr('width', 20)
+//              .attr('height', 20)
+//              .attr('fill', 'brown');
 
             // adds the text to the node
             node.append("text")
