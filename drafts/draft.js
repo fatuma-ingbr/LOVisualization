@@ -13,20 +13,25 @@ var svg = d3.select("body")
 
 // creating group element - it will hold the text and container element
 
-svg.append("g")
-    .append("rect")
+var group = svg.append("g");
+                
+
+
+group.append("rect")
     .attr("x", 400)
     .attr("y", 200)
     .attr("height", 200)
     .attr("width", 400)
     .attr("fill", "brown")
-    .append("text")
-    .attr("x", 400)
-    .attr("y", 200)
-    .attr("stroke", "black")
+    
+group.append("text")
+    .attr("x", 450)
+    .attr("y", 300)
+    .attr("fill", "white")
     .attr("font-family", "Lato")
     .text("LO1: This will be our first Learning Objective!");
 
+console.log(text);
 
 //-------------- this code is for the SVG elment commented out on the html doc--------//
 
