@@ -55,7 +55,7 @@ var data = {
 
  // Set the dimensions and margins of the diagram
             var margin = {top: 40, right: 90, bottom: 50, left: 90},
-                  w = 660 - margin.left - margin.right,
+                  w = 900 - margin.left - margin.right,
                   h = 500 - margin.top - margin.bottom;
 
             // append the svg object to the body of the page

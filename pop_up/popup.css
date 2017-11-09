@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #2d2d2a;
+}
+
+.container {
+    width: 100%;
+    padding-top: 20%;
+}
+
+.lo_info{
+    padding-top: 15px !important;
+    padding: 30px;
+    text-align: center;
+    background: #f1c40f;
+    width: 300px;
+    height: 75px;
+    margin: 0 35%;
+}
+
+.lo_info p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lo_info span {
+    font-weight: 400;
+}
+
+.lo_info button{
+    border-style: none;
+    width: 150px;
+    height: 30px;
+    background: #2d2d2a;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lo_info button:hover{
+    color: #f1c40f;    
+    transition: 0.7s;
+    border-radius: 15px;
+}
