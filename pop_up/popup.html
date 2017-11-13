@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pop Up | Demo</title>
-        <link href="popup.css" type="text/css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <title>Pop Up | CSS Only</title>
+        <link rel="stylesheet" href="popdemo.css">
         
     </head>
     
     <body>
-    
-        <div class="row popContainer">
-          <div class="col-md-4 lo_info">
-            <p><span>LO:</span> Learner can write a topic sentence</p>
-            <button type="button">More Info</button>
-          </div>
+       
+       <div id="loContent">
+           <p>LO3: Learner can write a topic sentence</p>
+           <a href="#modal"><button type="button">More Info</button></a>
+       </div>
+       
+        
+        <div id="modal">
+            <div class="modalContainer">
+                <h3>LO3 Information</h3>
+                <ul>
+                    <li>
+                        Pre-requisites:
+                        <ul>
+                            <li>LO2 - Learner can write a sentence.</li>
+                        </ul>
+                    </li>
+                    <br>
+                    
+                    <li>
+                        Assessed In:
+                        <ul>
+                            <li>Week 2: Topic Sentences Assignment</li>
+                            <li>Week 3: Paragaphs Assignment</li>
+                            <li>Week 6: Summative Assessment</li>
+                        </ul>
+                    </li>
+                    <br>
+                    
+                    <li>
+                        Pre-requisite To:
+                        <ul>
+                            <li>LO4 - Learner can write a paragraph.</li>
+                        </ul>
+                    </li>
+                    <br>
+                    
+                    <li>
+                        LO3 Resources:
+                        <ul>
+                            <li><a href="#">Video: How To Write a Good Topic Sentence</a></li>
+                            <li><a href="#">Read: Topic Sentence, What are those?</a></li>
+                            <li><a href="#">Exercise: Topic Sentences</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <a href="#"><button type="button">Close</button></a>
+            </div>
         </div>
-    
-     <script src="popup.js" type="text/javascript"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+      
     </body>
 </html>
